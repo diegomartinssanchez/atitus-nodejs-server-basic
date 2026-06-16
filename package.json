@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-newrelic",
+  "version": "1.0.0",
+  "description": "Basic Node.js and Express server for a New Relic tutorial",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "newrelic"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
