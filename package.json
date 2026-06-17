@@ -4,7 +4,7 @@
   "description": "Basic Node.js and Express server for a New Relic tutorial",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "NEW_RELIC_APP_NAME=atitus-node NEW_RELIC_LICENSE_KEY=7941158e445a602b1c2136b4493d45ac780eNRAL node -r newrelic server.js",
     "dev": "node --watch server.js"
   },
   "keywords": [
@@ -15,6 +15,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "newrelic": "^14.1.0"
   }
 }
